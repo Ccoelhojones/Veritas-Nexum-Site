@@ -23,10 +23,6 @@
                 <a href="#products">Products</a>
                 <a href="#methodology">Methodology</a>
                 <a href="#contact">Contact</a>
-                <span class="font-preview-toggle">
-                    <button onclick="setFont('playfair')" id="btn-playfair" class="font-btn font-btn--active">Playfair</button>
-                    <button onclick="setFont('cormorant')" id="btn-cormorant" class="font-btn">Cormorant</button>
-                </span>
             </nav>
         </div>
     </header>
@@ -166,31 +162,5 @@
         </div>
     </footer>
 
-<script>
-function setFont(choice) {
-    const brand = document.getElementById('brandName');
-    const btnP = document.getElementById('btn-playfair');
-    const btnC = document.getElementById('btn-cormorant');
-    if (choice === 'playfair') {
-        brand.style.fontFamily = "'Playfair Display', Georgia, serif";
-        brand.style.fontWeight = "700";
-        brand.style.letterSpacing = "0.08em";
-        brand.style.textTransform = "none";
-        brand.style.fontSize = "1.6rem";
-        btnP.classList.add('font-btn--active');
-        btnC.classList.remove('font-btn--active');
-    } else {
-        brand.style.fontFamily = "'Cormorant Garamond', Georgia, serif";
-        brand.style.fontWeight = "600";
-        brand.style.letterSpacing = "0.1em";
-        brand.style.textTransform = "none";
-        brand.style.fontSize = "1.75rem";
-        btnP.classList.remove('font-btn--active');
-        btnC.classList.add('font-btn--active');
-    }
-}
-// Default to Playfair on load
-setFont('playfair');
-</script>
 </body>
 </html>
