@@ -365,6 +365,14 @@ body {
 
 .product-cta--disabled:hover { background: #c5b9ac; }
 
+.product-cta--pending {
+    background: var(--topbar-bg);
+    color: rgba(255,255,255,0.55);
+    cursor: default;
+    pointer-events: none;
+    opacity: 0.65;
+}
+
 /* ── Methodology ── */
 .methodology {
     padding: 5rem 2rem;
