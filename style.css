@@ -127,7 +127,7 @@ body {
 
 .hero-descriptor {
     font-family: var(--font-mono);
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: var(--slate);
     line-height: 1.9;
     margin-bottom: 2.5rem;
@@ -142,7 +142,7 @@ body {
 
 .hero-sub {
     font-family: var(--font-mono);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: var(--slate);
     letter-spacing: 0.05em;
 }
