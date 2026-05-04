@@ -98,6 +98,35 @@ body {
 
 .topbar-nav a:hover { color: var(--bronze-light); }
 
+.colour-preview-toggle {
+    display: flex;
+    gap: 0.4rem;
+    margin-left: 1rem;
+    border-left: 1px solid rgba(255,255,255,0.15);
+    padding-left: 1rem;
+}
+
+.colour-btn {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.06em;
+    padding: 0.2rem 0.6rem;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.2);
+    color: rgba(255,255,255,0.5);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.colour-btn--active {
+    background: rgba(166,137,102,0.25);
+    border-color: var(--bronze);
+    color: var(--bronze-light);
+}
+
+.colour-btn:hover { color: var(--white); border-color: rgba(255,255,255,0.5); }
+
 /* ── Hero ── */
 .hero {
     padding: 7rem 2rem 6rem;
