@@ -293,7 +293,7 @@ body {
 .product-name {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--charcoal);
     letter-spacing: 0.02em;
 }
