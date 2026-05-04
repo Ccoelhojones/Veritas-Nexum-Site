@@ -3,7 +3,7 @@
 /* ── Tokens ── */
 :root {
     --canvas:        #F9F5F0;
-    --topbar-bg:     #2c3e6b;
+    --topbar-bg:     #1B2631;
     --charcoal:      #1A1A1A;
     --slate:         #5a6478;
     --bronze:        #A68966;
@@ -50,18 +50,34 @@ body {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 0 2rem;
-    height: 60px;
+    height: 72px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.topbar-brand-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.15rem;
+}
+
 .topbar-brand {
     font-family: var(--font-serif);
-    font-size: 1.25rem;
-    font-weight: 500;
+    font-size: 1.65rem;
+    font-weight: 600;
     color: var(--white);
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
+    line-height: 1;
+}
+
+.topbar-brand-sub {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
 }
 
 .topbar-nav {
@@ -93,13 +109,9 @@ body {
     margin: 0 auto;
 }
 
-.hero-label {
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--bronze);
-    margin-bottom: 2rem;
+.hero-descriptor strong {
+    color: var(--charcoal);
+    font-weight: 700;
 }
 
 .hero-title {
@@ -422,6 +434,14 @@ body {
 .footer-sep {
     color: var(--bronze);
     font-size: 0.7rem;
+}
+
+.footer-entity {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    color: rgba(255,255,255,0.3);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 
 /* ── Responsive ── */
