@@ -23,6 +23,10 @@
                 <a href="#products">Products</a>
                 <a href="#methodology">Methodology</a>
                 <a href="#contact">Contact</a>
+                <span class="colour-preview-toggle">
+                    <button onclick="setBanner('#2C3444')" id="btn-slate" class="colour-btn colour-btn--active">Slate</button>
+                    <button onclick="setBanner('#1C1C1C')" id="btn-sable" class="colour-btn">Sable</button>
+                </span>
             </nav>
         </div>
     </header>
@@ -162,5 +166,13 @@
         </div>
     </footer>
 
+<script>
+function setBanner(colour) {
+    document.querySelector('.topbar').style.background = colour;
+    document.querySelector('.footer').style.background = colour === '#1C1C1C' ? '#111111' : '#1a1f2b';
+    document.getElementById('btn-slate').classList.toggle('colour-btn--active', colour === '#2C3444');
+    document.getElementById('btn-sable').classList.toggle('colour-btn--active', colour === '#1C1C1C');
+}
+</script>
 </body>
 </html>
