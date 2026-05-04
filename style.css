@@ -50,7 +50,7 @@ body {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 0 2rem;
-    height: 72px;
+    height: 84px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,7 +65,7 @@ body {
 
 .topbar-brand {
     font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 1.9rem;
+    font-size: 2.4rem;
     font-weight: 700;
     color: #f1f5f9;
     letter-spacing: 0.02em;
@@ -75,7 +75,7 @@ body {
 
 .topbar-brand-sub {
     font-family: var(--font-mono);
-    font-size: 0.62rem;
+    font-size: 0.72rem;
     color: rgba(255,255,255,0.5);
     letter-spacing: 0.12em;
     text-transform: uppercase;
