@@ -23,10 +23,6 @@
                 <a href="#products">Products</a>
                 <a href="#methodology">Methodology</a>
                 <a href="#contact">Contact</a>
-                <span class="colour-preview-toggle">
-                    <button onclick="setFooter('slate')" id="btn-slate" class="colour-btn colour-btn--active">Slate</button>
-                    <button onclick="setFooter('dark')" id="btn-dark" class="colour-btn">Dark</button>
-                </span>
             </nav>
         </div>
     </header>
@@ -153,27 +149,5 @@
         </div>
     </footer>
 
-<script>
-function setFooter(choice) {
-    const footer = document.querySelector('.footer');
-    const brand = document.querySelector('.footer-brand');
-    const status = document.querySelector('.footer-status');
-    const btnS = document.getElementById('btn-slate');
-    const btnD = document.getElementById('btn-dark');
-    if (choice === 'slate') {
-        footer.style.background = '#2C3444';
-        brand.style.color = 'rgba(241,245,249,0.75)';
-        status.style.color = 'rgba(166,137,102,0.4)';
-        btnS.classList.add('colour-btn--active');
-        btnD.classList.remove('colour-btn--active');
-    } else {
-        footer.style.background = '#1A1A1A';
-        brand.style.color = '#f1f5f9';
-        status.style.color = 'rgba(166,137,102,0.5)';
-        btnS.classList.remove('colour-btn--active');
-        btnD.classList.add('colour-btn--active');
-    }
-}
-</script>
 </body>
 </html>
