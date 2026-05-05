@@ -1,5 +1,5 @@
-[phases.build]
-cmds = []
+[phases.install]
+nixPkgs = ["nodejs"]
 
 [start]
-cmd = "python -m http.server $PORT --directory /app"
+cmd = "npx serve . -p $PORT"
