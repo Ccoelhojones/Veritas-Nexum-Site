@@ -300,6 +300,8 @@ body {
 .product-status--forthcoming {
     background: #e8ddd0;
     color: var(--forth-text);
+    position: relative;
+    z-index: 2;
 }
 
 .product-name {
