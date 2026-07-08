@@ -481,7 +481,7 @@ body {
 .footer-status {
     font-family: var(--font-mono);
     font-size: 0.62rem;
-    color: #b8972e;
+    color: var(--bronze);
     letter-spacing: 0.14em;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
