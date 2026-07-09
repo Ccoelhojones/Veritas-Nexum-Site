@@ -387,7 +387,6 @@ body {
     flex-wrap: wrap;
     gap: 0.75rem;
     margin-top: auto;
-    align-self: flex-start;
 }
 
 .product-cta-group .product-cta {
