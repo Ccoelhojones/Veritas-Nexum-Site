@@ -383,14 +383,22 @@ body {
 
 .product-cta-group {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 0.75rem;
+    flex-direction: column;
+    gap: 0;
     margin-top: auto;
+    border-top: 1px solid rgba(166,137,102,0.25);
+    padding-top: 1.25rem;
 }
 
 .product-cta-group .product-cta {
     margin-top: 0;
+    align-self: flex-start;
+}
+
+.product-cta-group .product-cta + .product-cta {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(166,137,102,0.15);
 }
 
 .product-cta--request {
