@@ -381,6 +381,29 @@ body {
     opacity: 0.65;
 }
 
+.product-cta-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+.product-cta-group .product-cta {
+    margin-top: 0;
+}
+
+.product-cta--request {
+    background: transparent;
+    color: var(--bronze);
+    border: 1px solid var(--bronze);
+}
+
+.product-cta--request:hover {
+    background: var(--bronze);
+    color: var(--white);
+}
+
 /* ── Methodology ── */
 .methodology {
     padding: 5rem 2rem;
