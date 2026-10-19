@@ -521,7 +521,7 @@ body {
 .footer-disclaimer {
     font-family: var(--font-mono);
     font-size: 0.72rem;
-    color: rgba(255,255,255,0.45);
+    color: var(--bronze);
     line-height: 1.8;
     max-width: 680px;
 }
